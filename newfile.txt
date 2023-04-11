@@ -1,0 +1,6 @@
+#written by FileProperties
+#Tue Mar 21 11:45:57 KST 2023
+depth=32
+width=1024
+name=ygr
+height=512

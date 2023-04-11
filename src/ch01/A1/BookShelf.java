@@ -5,9 +5,9 @@ import java.util.Iterator;
 import java.util.List;
 
 public class BookShelf implements Iterable<Book> {
-    private List<Book> books;
+    private List<Book> books; //선언 후,
 
-    public BookShelf(int initialsize) {
+    public BookShelf(int initialsize) { //생성자를 통해 생성
         this.books = new ArrayList<>(initialsize);
     }
 

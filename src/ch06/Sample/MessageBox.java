@@ -17,17 +17,18 @@ public class MessageBox implements Product {
         }
         System.out.println();
         System.out.println(decochar + s + decochar);
-        for (int i = 0; i < decolen; i++) {
+        for (int i = 0; i < decolen; i++) { //문자열보다 앞뒤로 길이+1
             System.out.print(decochar);
         }
         System.out.println();
+        
     }
 
     @Override
-    public Product createCopy() {
+    public Product createCopy() { //자기 복제 메소드
         Product p = null;
         try {
-            p = (Product)clone();
+            p = (Product)clone(); //clone(): 실제로 복제품을 만드는 메소드
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }

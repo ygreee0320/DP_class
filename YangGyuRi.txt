@@ -1,0 +1,7 @@
+#written by FileProperties
+#Thu Mar 30 00:29:24 KST 2023
+bornYear=2000
+Year=2023
+StudentId=20210811
+Name=YangGyuri
+Location=Seoul
