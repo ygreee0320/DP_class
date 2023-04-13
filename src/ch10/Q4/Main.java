@@ -9,6 +9,8 @@ class Main {
         //asList(원소들) : 원소들을 나열하는 리스트 생성
 
         // 사전순으로 작은 순서(오름차순)
+        // list : 전략을 이용하는 컨텍스트
+        // Comparator : 전략 객체
         list.sort( new ComparatorAscending() );
         System.out.println(list);
 
